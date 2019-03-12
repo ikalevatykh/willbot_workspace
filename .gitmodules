@@ -1,36 +1,48 @@
 [submodule "willbot_stack"]
 	path = willbot_stack
 	url = https://github.com/ikalevatykh/willbot_stack.git
+	branch = master
 [submodule "ur_modern_driver"]
 	path = ur_modern_driver
 	url = https://github.com/ikalevatykh/ur_modern_driver.git
+	branch = master
 [submodule "robotiq"]
 	path = robotiq
 	url = https://github.com/ikalevatykh/robotiq.git
+	branch = kinetic-devel
 [submodule "moveit"]
 	path = moveit
 	url = https://github.com/ikalevatykh/moveit.git
+	branch = kinetic-devel
 [submodule "moveit_msgs"]
 	path = moveit_msgs
 	url = https://github.com/ros-planning/moveit_msgs.git
+	branch = kinetic-devel
 [submodule "industrial_moveit"]
 	path = industrial_moveit
 	url = https://github.com/ros-industrial/industrial_moveit.git
+	branch = kinetic-devel
 [submodule "geometric_shapes"]
 	path = geometric_shapes
 	url = https://github.com/ros-planning/geometric_shapes.git
+	branch = kinetic-devel
 [submodule "ar_track_alvar"]
 	path = ar_track_alvar
 	url = https://github.com/ros-perception/ar_track_alvar.git
+	branch = kinetic-devel
 [submodule "hrl-kdl"]
 	path = hrl-kdl
 	url = https://github.com/gt-ros-pkg/hrl-kdl.git
+	branch = indigo-devel
 [submodule "leap_motion"]
 	path = leap_motion
 	url = https://github.com/ros-drivers/leap_motion.git
+	branch = hydro
 [submodule "takktile_ros"]
 	path = takktile_ros
 	url = https://github.com/ikalevatykh/takktile_ros.git
+	branch = master
 [submodule "iai_kinect2"]
 	path = iai_kinect2
 	url = https://github.com/code-iai/iai_kinect2.git
+	branch = master
