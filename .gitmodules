@@ -1,0 +1,36 @@
+[submodule "willbot_stack"]
+	path = willbot_stack
+	url = https://github.com/ikalevatykh/willbot_stack.git
+[submodule "ur_modern_driver"]
+	path = ur_modern_driver
+	url = https://github.com/ikalevatykh/ur_modern_driver.git
+[submodule "robotiq"]
+	path = robotiq
+	url = https://github.com/ikalevatykh/robotiq.git
+[submodule "moveit"]
+	path = moveit
+	url = https://github.com/ikalevatykh/moveit.git
+[submodule "moveit_msgs"]
+	path = moveit_msgs
+	url = https://github.com/ros-planning/moveit_msgs.git
+[submodule "industrial_moveit"]
+	path = industrial_moveit
+	url = https://github.com/ros-industrial/industrial_moveit.git
+[submodule "geometric_shapes"]
+	path = geometric_shapes
+	url = https://github.com/ros-planning/geometric_shapes.git
+[submodule "ar_track_alvar"]
+	path = ar_track_alvar
+	url = https://github.com/ros-perception/ar_track_alvar.git
+[submodule "hrl-kdl"]
+	path = hrl-kdl
+	url = https://github.com/gt-ros-pkg/hrl-kdl.git
+[submodule "leap_motion"]
+	path = leap_motion
+	url = https://github.com/ros-drivers/leap_motion.git
+[submodule "takktile_ros"]
+	path = takktile_ros
+	url = https://github.com/ikalevatykh/takktile_ros.git
+[submodule "iai_kinect2"]
+	path = iai_kinect2
+	url = https://github.com/code-iai/iai_kinect2.git
