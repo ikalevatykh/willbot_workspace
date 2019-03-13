@@ -96,6 +96,11 @@ See full documentation for [Ubuntu install of ROS Kinetic](http://wiki.ros.org/k
    sudo apt-get install libmodbus-dev
    ```
 
+6. Install yaml for using with a python 3.x
+
+   ```
+   sudo apt-get install python3-yaml
+   ```
 
 ## Install Catkin tools 
 
