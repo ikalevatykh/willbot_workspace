@@ -158,8 +158,8 @@ sudo apt-get install python-catkin-tools
    ```
    cd ~/ros_kinetic_ws/
    catkin build --save-config --cmake-args -DCMAKE_BUILD_TYPE=Release
-      source devel/setup.bash
-```
+   source devel/setup.bash
+   ```
 
    During the building you may have several warning messages, it is normal.
    If you have error messages about missing dependencies or other errors, please notify me.
