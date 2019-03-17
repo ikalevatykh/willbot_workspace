@@ -175,7 +175,7 @@ sudo apt-get install python-catkin-tools
 7. Check that packages linked correctly
 
    ```console
-   foo@bar:~$ rosls willbot_stack
+   foo@bar:~$ rosls willbot_bringup
    CMakeLists.txt  config  launch  package.xml  script
    ```
 
