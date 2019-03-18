@@ -12,6 +12,7 @@ git clone --recurse-submodules https://github.com/ikalevatykh/willbot_workspace.
 Then to update packages to the latest version use:
 
 ```
+git submodule init
 git submodule update --recursive --remote
 ```
 
