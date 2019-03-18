@@ -46,3 +46,7 @@
 	path = iai_kinect2
 	url = https://github.com/code-iai/iai_kinect2.git
 	branch = master
+[submodule "realsense"]
+	path = realsense
+	url = https://github.com/intel-ros/realsense.git
+	branch = development
