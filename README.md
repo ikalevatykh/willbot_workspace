@@ -101,6 +101,13 @@ See full documentation for [Ubuntu install of ROS Kinetic](http://wiki.ros.org/k
    ```
    sudo apt-get install python3-yaml
    ```
+   
+7. Install librealsense
+
+   [Install using pre-build packages](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md).
+   
+   Restart a machine.
+
 
 ## Install Catkin tools 
 
