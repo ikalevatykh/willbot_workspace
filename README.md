@@ -104,7 +104,7 @@ See full documentation for [Ubuntu install of ROS Kinetic](http://wiki.ros.org/k
    
 7. Install librealsense
 
-   [Install using pre-build packages](https://github.com/IntelRealSense/librealsense/blob/master/doc/installation.md).
+   [Install using pre-build packages](https://github.com/IntelRealSense/librealsense/blob/master/doc/distribution_linux.md).
    
    Restart a machine.
 
