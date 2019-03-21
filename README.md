@@ -75,22 +75,27 @@ See full documentation for [Ubuntu install of ROS Kinetic](http://wiki.ros.org/k
 
 4. Install libfreenect2 (for Kinect2 support)
 
-   [Instructions](https://github.com/OpenKinect/libfreenect2).
-
-   CMake feature list for the Paris installation:
-   --   CUDA    yes
-   --   CXX11    yes
-   --   Examples    yes
-   --   OpenCL    yes
-   --   OpenGL    yes
-   --   OpenNI2    yes
-   --   TegraJPEG    no
-   --   Threading    std::thread
-   --   TurboJPEG    yes
-   --   VAAPI    no
-   --   VideoToolbox    no (Apple only)
-   --   streamer_recorder    disabled
-
+   See [install instructions](https://github.com/OpenKinect/libfreenect2) for more details.
+   
+   Install build tools
+    ```
+    sudo apt-get install build-essential cmake pkg-config
+    ```
+   Install dependencies
+    ```
+    sudo apt-get install libusb-1.0-0-dev libturbojpeg libjpeg-turbo8-dev libglfw3-dev libopenni2-dev libva-dev libjpeg-dev
+    ```
+   Download libfreenect2 source, build and install
+    ```
+    git clone https://github.com/OpenKinect/libfreenect2.git
+    cd libfreenect2
+    mkdir build && cd build
+    cmake .. -DCMAKE_INSTALL_PREFIX=$HOME/freenect2
+    make -j8
+    make install    
+    ``` 
+   Set up udev rules for device access: `sudo cp ../platform/linux/udev/90-kinect2.rules /etc/udev/rules.d/`, then replug the Kinect.
+    
 5. Install libmodbus
 
    ```
