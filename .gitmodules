@@ -54,3 +54,7 @@
 	path = universal_robot
 	url = https://github.com/ros-industrial/universal_robot.git
 	branch = kinetic-devel
+[submodule "usb_cam"]
+	path = usb_cam
+	url = https://github.com/ikalevatykh/usb_cam.git
+	branch = develop
