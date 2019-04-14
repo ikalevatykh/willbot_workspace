@@ -21,6 +21,7 @@ git submodule update --recursive --remote
 ## Install ROS Kinetic
 
 See full documentation for [Ubuntu install of ROS Kinetic](http://wiki.ros.org/kinetic/Installation/Ubuntu).
+You can see also install scripts in [scripts/](scripts/). These scripts are experimental.
 
 1. Install ROS desktop full
 
