@@ -131,7 +131,9 @@ git clone --recurse-submodules https://github.com/ikalevatykh/willbot_workspace.
 pushd willbot_workspace
   # Willow version is not working on Melodic so we use APT version
   rm -r moveit
-  rm -r robotiq
+  push robotiq
+      git checkout kinectic-devel
+  popd
 popd
 git clone https://github.com/ros-drivers/freenect_stack.git
 { # try to install nvidia drivers
