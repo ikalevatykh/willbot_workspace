@@ -132,7 +132,7 @@ pushd willbot_workspace
   # Willow version is not working on Melodic so we use APT version
   rm -r moveit
   push robotiq
-      git checkout kinectic-devel
+      git checkout kinetic-devel
   popd
 popd
 git clone https://github.com/ros-drivers/freenect_stack.git
