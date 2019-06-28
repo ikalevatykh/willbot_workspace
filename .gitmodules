@@ -58,3 +58,6 @@
 	path = usb_cam
 	url = https://github.com/ikalevatykh/usb_cam.git
 	branch = develop
+[submodule "freenect_stack"]
+	path = freenect_stack
+	url = https://github.com/ros-drivers/freenect_stack.git
