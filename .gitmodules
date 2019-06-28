@@ -6,10 +6,6 @@
 	path = ur_modern_driver
 	url = https://github.com/ikalevatykh/ur_modern_driver.git
 	branch = master
-[submodule "robotiq"]
-	path = robotiq
-	url = https://github.com/ikalevatykh/robotiq.git
-	branch = kinetic-devel
 [submodule "moveit"]
 	path = moveit
 	url = https://github.com/ikalevatykh/moveit.git
@@ -61,3 +57,7 @@
 [submodule "freenect_stack"]
 	path = freenect_stack
 	url = https://github.com/ros-drivers/freenect_stack.git
+[submodule "robotiq"]
+	path = robotiq
+	url = https://github.com/ikalevatykh/robotiq.git
+	branch = kinetic-devel
