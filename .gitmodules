@@ -44,9 +44,9 @@
 	branch = develop
 [submodule "Universal_Robots_ROS_Driver"]
 	path = Universal_Robots_ROS_Driver
-	url = https://github.com/UniversalRobots/Universal_Robots_ROS_Driver.git
+	url = https://github.com/UniversalRobots/Universal_Robots_ROS_Driver
 	branch = master
 [submodule "universal_robot"]
 	path = universal_robot
-	url = https://github.com/fmauch/universal_robot.git
+	url = https://github.com/fmauch/universal_robot
 	branch = kinetic-devel
